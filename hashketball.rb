@@ -128,8 +128,8 @@ def game_hash
 end
 
 # Write code here
-def num_points_scored
-  game_hash
+def num_points_scored(player_name)
+  player_name.each do |player_name, points|
 end
 
 
